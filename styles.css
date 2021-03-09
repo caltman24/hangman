@@ -1,3 +1,7 @@
+body {
+    background: rgb(176,176,176);
+    background: linear-gradient(90deg, rgba(176,176,176,1) 11%, rgba(255,255,255,1) 100%);}
+
 .grid {
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
@@ -32,17 +36,19 @@
 .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-bottom: 50px;
 }
 
 .output {
     display: flex;
+    align-items: flex-end;
 }
 
-.dash {
+.letter-floor {
     width: 40px;
     height: 5px;
     border-radius: 25%;
     margin-right: 10px;
+    margin-left: 10px;
     background-color: black;
 }
