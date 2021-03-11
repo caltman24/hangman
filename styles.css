@@ -14,11 +14,13 @@ body {
 .header {
     display: grid;
     grid-template-rows: 50% 50%;
+    justify-content: center;
 }
 
 #letter-input {
     text-align: center;
     font-size: 2rem;
+    max-width: 300px;
 }
 
 .attempts {
@@ -42,13 +44,16 @@ body {
 .output {
     display: flex;
     align-items: flex-end;
+    justify-content: center;
+    gap: 10px;
 }
 
+.letter{
+    font-size: 2rem;
+}
 .letter-floor {
     width: 40px;
     height: 5px;
     border-radius: 25%;
-    margin-right: 10px;
-    margin-left: 10px;
     background-color: black;
 }
